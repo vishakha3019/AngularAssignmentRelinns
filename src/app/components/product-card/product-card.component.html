@@ -1,0 +1,14 @@
+  <div class="card" style="width: 19rem;">
+    <img src="./assets/haircare.jpg" class="card-img-top img-hair" >
+    <div class="card-body">
+      <h5 class="card-title">{{ card.title }}</h5>
+    <ul class="list-group list-group-flush ">
+      <li class="list-group-item">{{ card.description }}</li>
+      <li class="list-group-item">Price: {{ card.price | currency:'INR':'symbol':'1.2-2' }}</li>
+      <li class="list-group-item">Ratings: {{ card.ratings }}</li>
+    </ul>
+    <div class="card-body">
+      <button (click)="addToCart()">Add to Cart</button>
+      <span class="wishlist-icon">Wishlist❤️</span>
+    </div>
+  </div>

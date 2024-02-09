@@ -1,0 +1,42 @@
+/* productCard.component.css */
+
+  .card{
+    margin:30px;
+  }
+
+  .card-body{
+    background-color: #A48870;
+  }
+
+  .body1{
+    background-color: #A48870;
+  }
+  
+  h5 {
+    color: #333;
+  }
+  
+  button {
+    background-color: #603005;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    
+  }
+  
+  .wishlist-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
+  .list-group-item{
+    background-color:#ab7545;
+    font-style: italic;
+  }
+
+  .card-title{
+    text-align: center;
+  }
